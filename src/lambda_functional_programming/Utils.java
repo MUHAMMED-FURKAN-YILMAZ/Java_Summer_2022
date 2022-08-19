@@ -26,4 +26,19 @@ public class Utils {
         return x*x*x;
     }
 
+
+    public static double yarisiniAl(int x){
+        return x/2.0;
+    }
+
+
+    public static char sonKarakterAl(String str){
+        return str.charAt(str.length()-1);
+    }
+
+
+    public static char ilkKarakterAl(String str){
+        return str.charAt(0);
+    }
+
 }
